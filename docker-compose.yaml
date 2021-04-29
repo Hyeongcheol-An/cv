@@ -2,6 +2,7 @@ version: "3"
 
 services:
   web:
+    container_name: cv_web
     build: .
     command: python manage.py runserver 0:8888
     ports:
